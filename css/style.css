@@ -1,6 +1,8 @@
 body {
   padding-top: 50px;
+  margin-bottom: 20px;
 }
+
 
 
 .product:hover {
@@ -24,5 +26,19 @@ body {
 	height:100%;
 	display: flex;
   align-items:flex-end;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
 }
 
